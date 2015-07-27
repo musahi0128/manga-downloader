@@ -1,6 +1,3 @@
-; Tempelate for downloading single chapter
-; ShellExecuteWait(@ScriptDir & "\files\dl-manga.cmd", $a & " " & GUICtrlRead($FormElement[$a][1]), $DownloadPath)
-
 Func StartDownload()
 	Global $Msg = ""
 	Global $Todo[0]
