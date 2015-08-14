@@ -1,11 +1,12 @@
-Local $FormElement[7][4]
+Local $FormElement[8][4]
 
 $FormElement[1][3] = "Bleach"
 $FormElement[2][3] = "Fairy Tail"
-$FormElement[3][3] = "Naruto Gaiden The Seventh Hokage"
-$FormElement[4][3] = "One Piece"
-$FormElement[5][3] = "Shingeki no Kyojin"
-$FormElement[6][3] = "Shingeki no Kyojin - Before the Fall"
+$FormElement[3][3] = "Fairy Tail Gaiden"
+$FormElement[4][3] = "Naruto Gaiden The Seventh Hokage"
+$FormElement[5][3] = "One Piece"
+$FormElement[6][3] = "Shingeki no Kyojin"
+$FormElement[7][3] = "Shingeki no Kyojin - Before the Fall"
 
 Func GenFormDetail($a)
 	Local $Top = 8+(32*$a)
@@ -19,7 +20,7 @@ Func GenFormDetail($a)
 EndFunc
 
 Func FormElementToogler()
-	For $a = 1 to 6
+	For $a = 1 to 7
 		If GUICtrlRead($FormElement[$a][0]) = "No Download" Then
 			GUICtrlSetState($FormElement[$a][1], $GUI_DISABLE)
 			GUICtrlSetState($FormElement[$a][2], $GUI_DISABLE)

@@ -18,15 +18,18 @@ If %1 equ 1 (
 	set mangatitle="[NEW]FairyTail"
 	set main-link=http://kasumiremix.appspot.com/mangareader.net/fairy-tail
 ) else If %1 equ 3 (
+	set mangatitle="[NEW]FairyTailGaiden"
+	set main-link=http://kasumiremix.appspot.com/mangareader.net/fairy-tail-gaiden-kengami-no-souryuu
+) else If %1 equ 4 (
 	set mangatitle="[NEW]NarutoGaidenTheSeventhHokage"
 	set main-link=http://kasumiremix.appspot.com/mangareader.net/naruto-gaiden-the-seventh-hokage
-) else If %1 equ 4 (
+) else If %1 equ 5 (
 	set mangatitle="[NEW]OnePiece"
 	set main-link=http://kasumiremix.appspot.com/mangareader.net/one-piece
-) else If %1 equ 5 (
+) else If %1 equ 6 (
 	set mangatitle="[NEW]ShingekiNoKyojin"
 	set main-link=http://kasumiremix.appspot.com/mangareader.net/shingeki-no-kyojin
-) else If %1 equ 6 (
+) else If %1 equ 7 (
 	set mangatitle="[NEW]ShingekiNoKyojinBeforeTheFall"
 	set main-link=http://kasumiremix.appspot.com/mangareader.net/attack-on-titan-before-the-fall
 ) else (goto directexit)

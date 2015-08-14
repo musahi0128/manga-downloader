@@ -1,7 +1,7 @@
 Func StartDownload()
 	Global $Msg = ""
 	Global $Todo[0]
-	For $b = 1 to 6
+	For $b = 1 to 7
 		If GUICtrlRead($FormElement[$b][0]) = "1 chapter" Then
 			If GUICtrlRead($FormElement[$b][1]) = "" Then
 				$Msg &= "Pleas input chapter number to download for  " & $FormElement[$b][3] & @CRLF

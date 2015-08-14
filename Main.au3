@@ -9,7 +9,7 @@
 
 
 #Region ### START Koda GUI section ### Form=C:\Users\Administrator\Desktop\mangadownloader.kxf
-$Form1 = GUICreate("Manga Downloader", 386, 258, -1, -1)
+$Form1 = GUICreate("Manga Downloader", 386, 258+24, -1, -1)
 $MenuItem1 = GUICtrlCreateMenu("File")
 $MenuItem2 = GUICtrlCreateMenuItem("Start Download", $MenuItem1)
 $MenuItem3 = GUICtrlCreateMenuItem("Exit", $MenuItem1)
@@ -20,7 +20,7 @@ $DownloadPathInput = GUICtrlCreateInput($DownloadPath, 128, 8, 209, 21)
 GUICtrlSetState(-1, $GUI_DISABLE)
 $Button1 = GUICtrlCreateButton("...", 343, 6, 35, 25)
 
-For $a = 1 to 6
+For $a = 1 to 7
 	GenFormDetail($a)
 Next
 
